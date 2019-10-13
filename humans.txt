@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Rakesh Mudaliar> -- <Design, Development,Bootstrap,JQuery> 
+
+# THANKS
+
+    
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery,Bootstrap , Modernizr

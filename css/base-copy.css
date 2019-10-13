@@ -1,0 +1,341 @@
+@import url(http://fonts.googleapis.com/
+	css?family=Lato:400,700|Merriweather:400,700,900,300);
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?t9bxei');
+	src:url('../fonts/icomoon.eot?#iefixt9bxei') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?t9bxei') format('woff'),
+		url('../fonts/icomoon.ttf?t9bxei') format('truetype'),
+		url('../fonts/icomoon.svg?t9bxei#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart-o:before {
+	content: "\e600";
+	position: absolute;
+	top:70%;
+	left:46%;
+	color: #ccc;
+}
+
+.icon-display:before {
+	content: "\e956";
+	display: inline-block;
+	padding: 5px;
+	border-radius: 50%;
+	border:2px solid #0eb493;
+	color: #0eb493;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.icon-mobile:before {
+	content: "\e958";
+	display: inline-block;
+	padding: 5px;
+	border-radius: 50%;
+	border:2px solid #0eb493;
+	color: #0eb493;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.icon-equalizer:before {
+	content: "\e992";
+	display: inline-block;
+	padding: 5px;
+	border-radius: 50%;
+	border:2px solid #0eb493;
+	color: #0eb493;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.icon-facebook3:before {
+	content: "\ea8e";
+	font-size: 40px;
+	border-radius: 50%;
+	padding: 10px;
+	border:1px solid #0eb493;
+	color: #0eb493;
+
+
+}
+
+.icon-twitter3:before {
+	content: "\ea93";
+	font-size: 40px;
+	border-radius: 50%;
+	padding: 10px;
+	border:1px solid #0eb493;
+	color: #0eb493;
+}
+
+.icon-github4:before {
+	content: "\eab4";
+	font-size: 40px;
+	border-radius: 50%;
+	padding: 10px;
+	border:1px solid #0eb493;
+	color: #0eb493;
+}
+
+.icon-wordpress2:before {
+	content: "\eab7";
+	font-size: 40px;
+	border-radius: 50%;
+	padding: 10px;
+	border:1px solid #0eb493;
+	color: #0eb493;
+}
+
+.icon-linkedin2:before {
+	content: "\eac9";
+	font-size: 40px;
+	border-radius: 50%;
+	padding: 10px;
+	border:1px solid #0eb493;
+	color: #0eb493;
+}
+
+.icon-stackoverflow:before {
+	content: "\eacf";
+	font-size: 40px;
+	border-radius: 50%;
+	padding: 10px;
+	border:1px solid #0eb493;
+	color: #0eb493;
+}
+
+.icon-mail:before {
+	position: relative;
+	content: "\e601";
+	font-size: 20px;
+	top: 5px;
+
+}
+
+
+
+ /* icomoon ends here*/
+
+body{
+	font-family:"Merriweather"  , sans-serif;
+	font-weight: 300;
+	font-size: 1.49em;
+	color: #2b2e2e;
+	/*padding-top: 50px;*/
+	position: relative;
+}
+
+#about-me{
+	padding-top: 50px;
+
+}
+
+
+@media (max-width: 410px) {
+  #about-me {
+   padding-top: 70px;
+}
+
+}
+            /* done navbar basic properties*/
+header nav.navbar-default{
+  background-color:#0c2526;
+  border-radius: 0;
+ /* border-bottom:5px solid #020d0d;*/
+  border:0;
+  margin-bottom: 0;
+  
+}
+
+
+
+    /*logo or brand name*/
+
+header .container .navbar-header h4{
+	margin:15px auto;
+	color: #fff;
+	
+}
+
+	/*  hamberger menu */
+
+.navbar-toggle{
+
+	background-color: #093c43;
+	color: #ccc;
+
+
+}
+
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+
+	background-color:#0eb493;
+	color: #ddd;
+}
+
+          /* done styles for navbar hover bg and selected tab start below*/
+
+.navbar-default .navbar-nav li a:focus,  .navbar-default .navbar-nav li a:hover {
+
+background-color: #0eb493;
+	color: #ddd;
+
+}
+
+.navbar-default .navbar-nav>li>a{
+
+
+	color: #fff;
+}
+
+.my-tabs{
+
+margin: 20px 0;
+/*background-color: red;*/
+}
+
+
+
+.my-tabs h2{
+
+	text-align: center;
+	padding: 20px 10px;
+	margin-bottom: 20px;
+	color: #0eb493;
+	font-weight: 700;
+	/*border-bottom: 2px solid gray;*/
+
+}
+
+
+
+
+/*article.feature p{
+	padding-left: 40px;
+}*/
+
+#features{
+
+	padding: 50px 0;
+	background-color: #f4f7f9;
+	margin-top: 0;
+}
+
+#photoshop button{
+
+	background-color: #f4f7f9;
+}
+
+
+.bor-style{
+
+	margin-top: 40px;
+	border-bottom: 2px solid #ccc;
+}
+
+
+#work p,#social p,#contact p,#photoshop p{
+text-align: center;
+margin-bottom: 30px;
+}
+
+.row img.img-responsive{
+
+
+	display: inline-block;
+
+	margin: 0;
+	padding: 0;
+}
+
+
+#social{
+	background-image: url("../img/city.jpg");
+	background-repeat: no-repeat;
+	
+
+}
+
+#contact form input{
+	width: 100%;
+	border:0;
+	border-bottom: 1px solid gray;
+}
+
+#contact form label{
+font-size: 14px;
+font-weight: normal;
+
+}
+#contact .addr{
+
+	padding-top: 20px;
+}
+
+
+
+#msg{
+
+	padding-top: 10px;
+}
+
+footer{
+	background-color: #1ea78d;
+}
+
+footer p{
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.msg-btn{
+	margin-top: 10px;
+	/*padding: 10px 10px;*/
+}
+
+#contact form p.btn{
+
+
+
+}
+#contact .addr address p{
+	text-align: left;
+}
+#photoshop{
+
+	background-color: #1ea78d;
+	background-image: linear-gradient(to bottom,#fff, #26a58c);
+}
+#photoshop button{
+
+	margin-bottom: 50px;
+}
+
+#social section{
+
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+
+#map-container { height: 300px }

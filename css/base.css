@@ -1,0 +1,312 @@
+@import url(http://fonts.googleapis.com/
+	css?family=Lato:400,700|Merriweather:400,700,900,300);
+@font-face {
+	font-family: 'icon-rf';
+	src:url('../fonts/icon-rf.eot?-ltsm3t');
+	src:url('../fonts/icon-rf.eot?#iefix-ltsm3t') format('embedded-opentype'),
+		url('../fonts/icon-rf.woff?-ltsm3t') format('woff'),
+		url('../fonts/icon-rf.ttf?-ltsm3t') format('truetype'),
+		url('../fonts/icon-rf.svg?-ltsm3t#icon-rf') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icon-rf';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bullhorn:before {
+	content: "\e91a";
+}
+
+.icon-connection:before {
+	content: "\e91b";
+}
+
+.icon-podcast:before {
+	content: "\e91c";
+}
+
+.icon-phone:before {
+	content: "\e942";
+}
+
+.icon-bell:before {
+	content: "\e951";
+}
+
+.icon-mobile2:before {
+	display: inline-block;
+	content: "\e959";
+	padding: 5px;
+	border-radius: 50%;
+	border:2px solid #0eb493;
+	color: #0eb493;
+	margin-top: 20px;
+	font-size: 30px;
+
+}
+
+.icon-bubbles2:before {
+	content: "\e96d";
+	
+}
+
+.icon-spinner4:before {
+	content: "\e97d";
+}
+
+.icon-mug:before {
+	content: "\e9a2";
+}
+
+.icon-meter2:before {
+	content: "\e9a7";
+}
+
+.icon-clipboard:before {
+	content: "\e9b8";
+}
+
+.icon-sphere:before {
+	content: "\e9c9";
+}
+
+.icon-arrow-right:before {
+	content: "\ea34";
+}
+
+.icon-arrow-left:before {
+	content: "\ea38";
+}
+
+.icon-facebook3:before {
+	content: "\ea8e";
+}
+
+.icon-twitter3:before {
+	content: "\ea93";
+}
+
+.icon-forrst:before {
+	content: "\eaa9";
+}
+
+.icon-wordpress:before {
+	content: "\eab6";
+	position: absolute;
+	top:70%;
+	left:46%;
+	
+
+}
+
+.icon-tumblr2:before {
+	content: "\eabc";
+}
+
+.icon-pinterest:before {
+	content: "\ead0";
+}
+
+.icon-chrome:before {
+	content: "\eae5";
+}
+
+
+body{
+	font-family:"Merriweather"  , sans-serif;
+	font-weight: 300;
+	font-size: 1.49em;
+	color: #2b2e2e;
+	/*padding-top: 50px;*/
+	position: relative;
+}
+
+#about-me{
+	padding-top: 50px;
+
+}
+
+
+@media (max-width: 410px) {
+  #about-me {
+   padding-top: 70px;
+}
+
+}
+            /* navbar basic properties*/
+header nav.navbar-default{
+  background-color:#0c2526;
+  border-radius: 0;
+ /* border-bottom:5px solid #020d0d;*/
+  border:0;
+  margin-bottom: 0;
+  
+}
+
+
+
+    /*logo or brand name*/
+
+header .container .navbar-header h4{
+	margin:15px auto;
+	color: #fff;
+	
+}
+
+	/*  hamberger menu */
+
+.navbar-toggle{
+
+	background-color: #093c43;
+	color: #ccc;
+
+
+}
+
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+
+	background-color: red;
+	color: #ddd;
+}
+
+          /* styles for navbar hover bg and selected tab start below*/
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+
+background-color: #0eb493;
+	color: #ddd;
+
+}
+
+.navbar-default .navbar-nav>li>a{
+
+	color: #fff;
+}
+
+.my-tabs{
+
+margin: 20px 0;
+/*background-color: red;*/
+}
+
+
+
+.my-tabs h2{
+
+	text-align: center;
+	padding: 20px 10px;
+	margin-bottom: 20px;
+	color: #0eb493;
+	font-weight: 700;
+	/*border-bottom: 2px solid gray;*/
+
+}
+
+
+
+
+/*article.feature p{
+	padding-left: 40px;
+}*/
+
+#features{
+
+	padding: 50px 0;
+	background-color: #f4f7f9;
+	margin-top: 0;
+}
+
+#photoshop button{
+
+	background-color: #f4f7f9;
+}
+
+
+.bor-style{
+
+	margin-top: 40px;
+	border-bottom: 2px solid gray;
+}
+
+
+#work p,#social p,#contact p,#photoshop p{
+text-align: center;
+}
+
+.row img.img-responsive{
+
+
+	display: inline-block;
+
+	margin: 0;
+	padding: 0;
+}
+
+
+#social{
+	background-image: url("../img/city.jpg");
+	background-repeat: no-repeat;
+
+}
+
+#contact form input{
+	width: 100%;
+	border:0;
+	border-bottom: 1px solid gray;
+}
+
+#contact form label{
+font-size: 14px;
+font-weight: normal;
+
+}
+#contact .addr{
+
+	padding-top: 20px;
+}
+
+
+
+#msg{
+
+	padding-top: 10px;
+}
+
+footer{
+	background-color: #1ea78d;
+}
+
+footer p{
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.msg-btn{
+	margin-top: 10px;
+	padding: 10px 10px;
+}
+
+#contact form p.btn{
+
+
+
+}
+#contact .addr address p{
+	text-align: left;
+}
+
