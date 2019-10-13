@@ -5,12 +5,6 @@
 (function (){
  "use strict";
 
- $('.navbar-nav>li').on( 'click', function(){
-  var myactive = $(this);
-  $(this).siblings().removeClass('active');
-  myactive.addClass('active');
-
- });
 
   var topoffset = 50; //variable for menu height
 
