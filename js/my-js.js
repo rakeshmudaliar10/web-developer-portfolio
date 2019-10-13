@@ -3,7 +3,7 @@
 
  */ 
 (function (){
- "use strict";
+
 
 
   var topoffset = 50; //variable for menu height
