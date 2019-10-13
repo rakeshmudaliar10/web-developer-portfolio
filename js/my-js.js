@@ -2,7 +2,7 @@
  * Bootstrap v3.3.4 (http://getbootstrap.com)
 
  */ 
-function (){
+(function (){
  "use strict";
 
  $('.navbar-nav>li').on( 'click', function(){
@@ -69,7 +69,7 @@ interval:false;
 
 
 
-}
+})();
 
 
  
