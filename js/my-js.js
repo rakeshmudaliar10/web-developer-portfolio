@@ -10,7 +10,7 @@
 
   $('body').scrollSpy({
 
-    target: 'header .navbar';
+    target: 'header .navbar',
     offset: topoffset
   });
 
