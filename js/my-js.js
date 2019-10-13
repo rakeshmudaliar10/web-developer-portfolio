@@ -2,13 +2,13 @@
  * Bootstrap v3.3.4 (http://getbootstrap.com)
 
  */ 
-function ($) {
+function (){
  "use strict";
 
  $('.navbar-nav>li').on( 'click', function(){
-  var my-active = $(this);
+  var myactive = $(this);
   $(this).siblings().removeClass('active');
-  my-active.addClass('active');
+  myactive.addClass('active');
 
  });
 
