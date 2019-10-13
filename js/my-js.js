@@ -2,7 +2,7 @@
  * Bootstrap v3.3.4 (http://getbootstrap.com)
 
  */ 
-(function (){
+function ($){
 
 
 
@@ -63,7 +63,7 @@ interval:false
 
 
 
-})();
+};
 
 
  
