@@ -63,7 +63,7 @@ interval:false
 
 
 
-};
+}
 
 
  
