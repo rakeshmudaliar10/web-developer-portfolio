@@ -4,7 +4,7 @@
  */ 
 
 
-
+$(document).ready(function(){
 
   var topoffset = 50; //variable for menu height
 
@@ -59,6 +59,6 @@ interval:false
 
 });
 
-
+});
 
  
