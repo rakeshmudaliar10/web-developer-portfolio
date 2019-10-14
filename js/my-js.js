@@ -8,7 +8,12 @@ jQuery(document).ready(function($){
 
   var topoffset = 50; //variable for menu height
 
- 
+  $(".mainmenu li").click(function(){
+	  $this = $(this);
+	  $this.addClass("active");
+	  $this.siblings().removeClass("active");
+	  
+  });
   // add inbody class
   var hash = $(this).find('li.active a').attr('href');
   if(hash !== '#featured') {
@@ -54,6 +59,6 @@ interval:false
 
 });
 
- }); 
+ })(jQuery); 
 
  
