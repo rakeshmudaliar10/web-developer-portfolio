@@ -1160,6 +1160,14 @@
             mapTypeId: Microsoft.Maps.MapTypeId.aerial,
             zoom: 10
         });
+		
+		//Create an infobox at the center of the map but don't show it.
+        infobox = new Microsoft.Maps.Infobox(map.getCenter(), {
+            visible: false
+        });
+
+        //Assign the infobox to a map instance.
+        infobox.setMap(map);
 		var center = map.getCenter();
 
         //Create custom Pushpin
