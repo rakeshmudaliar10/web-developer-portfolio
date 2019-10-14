@@ -54,6 +54,6 @@ interval:false
 
 });
 
- })(jQuery); 
+ }); 
 
  
